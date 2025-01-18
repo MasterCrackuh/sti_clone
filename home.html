@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="Css.css">
+</head>
+
+<body>
+    <header>
+        <div class="headLogo-container">
+            <img class="headLogo" src="stiLogo.jpg">
+        </div>
+        <div class="user-container">
+            <!-- <button class="toggleButton" onclick="myFunction()" type="submit" style="border: 0; background: transparent"><img src="darkmode.png" width="90" height="90" alt="submit"></button> /-->
+             <div class="icons">
+                <img class="iconsHeader" src="notification.png" alt="notification">
+             </div>
+             <div class="icons">
+                <img class="iconsHeader" src="email.png" alt="email">
+            </div>
+            <div class="dropdown">
+                <span>
+                    <img class="userProfile" src="profile.jpg" alt="Profile Picture">
+                </span>
+            <div class="dropdown-content">
+                <p class="dropdownText">Siomai Siopao</p>
+                <hr>
+                <p class="dropdownText">Dark Mode</p>
+                <label class="switch">
+                    <input type="checkbox" onclick="myFunction()">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="head-container">
+        <p class="heroText">Dashboard</p>
+        <img class="announcement" src="announcement_mfa.png">
+    </div>
+
+    <div class="course-container">
+        <p class="contentText">Courses</p>
+        <div class="course-grid">
+            
+            <div class="course">
+                <img class="courses" src="art-and-design.jpg" alt="Brand Communication and Design">
+                <h3 class="courseName">Brand Communication and Design</h3>
+                <p class="courseDesc">CASC1005 - BMMA 503</p>
+                <p class="courseDate">When: Aug 12 - Dec 21, 2024</p>
+                <a href="brandcomm.html" class="btnCourse">8 Modules</a>
+            </div>
+
+            <div class="bg-course-01">
+                <div class="course">
+                    <img class="courses" src="businessventure.png" alt="Business Ventures in Multimedia">
+                    <h3 class="courseName">Business Ventures in Multimedia</h3>
+                    <p class="courseDesc">CASC1005 - BMMA 503</p>
+                    <p class="courseDate">When: Aug 12 - Dec 21, 2024</p>
+                    <a href="cherryontop.html" class="btnCourse">8 Modules</a>
+                </div>
+            </div>
+
+            <div class="course">
+                <img class="courses" src="digitalphotog.png" alt="Digital Photography">
+                <h3 class="courseName">Digital Photography</h3>
+                <p class="courseDesc">CASC1005 - BMMA 503</p>
+                <p class="courseDate">When: Aug 12 - Dec 21, 2024</p>
+                <a href="uselesschad.html" class="btnCourse">8 Modules</a>
+            </div>
+
+            <div class="course">
+                <img class="courses" src="greatbooks.png" alt="Great Books">
+                <h3 class="courseName">Great Books</h3>
+                <p class="courseDesc">CASC1005 - BMMA 503</p>
+                <p class="courseDate">When: Aug 12 - Dec 21, 2024</p>
+                <a href="myrafromstreets.html" class="btnCourse">8 Modules</a>
+            </div>
+
+            <div class="course">
+                <img class="courses" src="typhography.png" alt="Typography and Layout">
+                <h3 class="courseName">Typography and Layout</h3>
+                <p class="courseDesc">CASC1005 - BMMA 503</p>
+                <p class="courseDate">When: Aug 12 - Dec 21, 2024</p>
+                <a href="keepthefaith.html" class="btnCourse">8 Modules</a>
+            </div>
+
+            <div class="course">
+                <img class="courses" src="webprog.png" alt="Web Programming">
+                <h3 class="courseName">Web Programming</h3>
+                <p class="courseDesc">CASC1005 - BMMA 503</p>
+                <p class="courseDate">When: Aug 12 - Dec 21, 2024</p>
+                <a href="webprogramming.html" class="btnCourse">9 Modules</a>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <p><strong>STI</strong> | STI Academic Center, Ortigas Avenue Extension, Cainta, 1900 Rizal</p>
+        </div>
+        <div>
+            <p>
+                <a href="#">Home</a> | <a href="#">Mission</a> | <a href="#">Vision</a> | <a href="#">Contact Us</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+    </script>
+
+</body>
+
+</html>
